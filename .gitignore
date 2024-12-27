@@ -36,3 +36,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+infrastructure/docker-compose/volumes
+.idea/encodings.xml
