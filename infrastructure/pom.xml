@@ -7,6 +7,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <artifactId>infrastructure</artifactId>
-    <name>Archetype - infrastructure</name>
+    <packaging>pom</packaging>
+    <name>infrastructure</name>
     <url>http://maven.apache.org</url>
+    <modules>
+        <module>kafka</module>
+    </modules>
 </project>
