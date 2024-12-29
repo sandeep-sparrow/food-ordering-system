@@ -1,4 +1,5 @@
 version: '3.7'
+
 services:
   zookeeper:
     image: confluentinc/cp-zookeeper:${KAFKA_VERSION:-latest}
@@ -18,3 +19,8 @@ services:
       - "./volumes/zookeeper/transactions:/var/lib/zookeeper/log"
     networks:
       - ${GLOBAL_NETWORK:-kafka}
+    healthcheck:
+      test: [ "CMD", "bash", "-c", "echo ruok | nc localhost 2181 | grep imok" ]
+      interval: 10s
+      timeout: 5s
+      retries: 3
