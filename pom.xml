@@ -12,6 +12,7 @@
         <module>order-service</module>
         <module>common</module>
         <module>infrastructure</module>
+        <module>customer-service</module>
     </modules>
 
     <parent>
@@ -30,6 +31,7 @@
         <kafka-avro-serializer.version>7.0.1</kafka-avro-serializer.version>
         <avro.version>1.11.0</avro.version>
         <junit.version>3.8.1</junit.version>
+        <snappy.verion>1.1.10.1</snappy.verion>
     </properties>
 
     <dependencyManagement>
@@ -66,6 +68,11 @@
             </dependency>
             <dependency>
                 <groupId>com.food.ordering.system</groupId>
+                <artifactId>common-dataaccess</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.food.ordering.system</groupId>
                 <artifactId>common-application</artifactId>
                 <version>${project.version}</version>
             </dependency>
@@ -94,6 +101,11 @@
                 <groupId>com.food.ordering.system</groupId>
                 <artifactId>kafka-config-data</artifactId>
                 <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.xerial.snappy</groupId>
+                <artifactId>snappy-java</artifactId>
+                <version>${snappy.verion}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

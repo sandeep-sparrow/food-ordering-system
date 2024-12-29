@@ -39,10 +39,10 @@
       }
     },
     {
-      "name": "orderApprovedStatus",
+      "name": "orderApprovalStatus",
       "type": {
         "type": "enum",
-        "name": "OrderApprovedStatus",
+        "name": "OrderApprovalStatus",
         "symbols": ["APPROVED", "REJECTED"]
       }
     },
