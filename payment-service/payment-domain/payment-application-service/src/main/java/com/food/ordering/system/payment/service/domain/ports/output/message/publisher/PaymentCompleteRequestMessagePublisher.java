@@ -1,0 +1,8 @@
+package com.food.ordering.system.payment.service.domain.ports.output.message.publisher;
+
+import com.food.ordering.system.domain.events.publisher.DomainEventPublisher;
+import com.food.ordering.system.payment.service.domain.event.PaymentCompletedEvent;
+
+public interface PaymentCompleteRequestMessagePublisher extends DomainEventPublisher<PaymentCompletedEvent> {
+
+}
