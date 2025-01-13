@@ -141,6 +141,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-logging</artifactId>
         </dependency>
+<!-- mvn com.github.ferstl:depgraph-maven-plugin:aggregate
+        -DcreateImage=true
+        -DreduceEdge=false
+        -Dscope=compile
+       "-Dincludes=com.food.ordering.system*:*"-->
     </dependencies>
 
     <build>
