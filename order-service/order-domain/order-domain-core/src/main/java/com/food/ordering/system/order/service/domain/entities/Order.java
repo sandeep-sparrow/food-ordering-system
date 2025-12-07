@@ -50,6 +50,7 @@ public class Order extends AggregateRoot<OrderId> {
         if (orderStatus != OrderStatus.PENDING) {
             throw new OrderDomainException("Order is not in pending state for pay operation!");
         }
+        orderStatus = OrderStatus.PAID;
     }
 
     public void approve() {
