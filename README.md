@@ -1,7 +1,7 @@
 # Food Ordering System – Microservices Architecture (Restaurant Service Included)
 
 This repository contains a **production-grade Food Ordering System** implemented using **Java, Spring Boot, Domain-Driven Design (DDD), SAGA Pattern, Kafka, and Clean Hexagonal Architecture**.
-This branch (`implement-restaurant-service`) specifically contains the **Restaurant Service implementation** and integrates it with other core services like Order and Payment.
+This branch (`restaurant-service`) specifically contains the **Restaurant Service implementation** and integrates it with other core services like Order and Payment.
 
 ---
 
