@@ -3,6 +3,8 @@
 This repository contains a **production-grade Food Ordering System** implemented using **Java, Spring Boot, Domain-Driven Design (DDD), SAGA Pattern, Kafka, and Clean Hexagonal Architecture**.
 This branch (`restaurant-service`) specifically contains the **Restaurant Service implementation** and integrates it with other core services like Order and Payment.
 
+<img width="1536" height="1024" alt="fos" src="https://github.com/user-attachments/assets/62384d05-54c5-402f-b72f-df1bb270083c" />
+
 ---
 
 ## 🚀 Project Overview
