@@ -16,7 +16,7 @@ import java.util.UUID;
 @RestController
 @AllArgsConstructor
 @RequestMapping(value = "/orders", produces = "application/vnd.api.v1+json")
-public class    OrderController {
+public class OrderController {
 
     private final OrderApplicationService orderApplicationService;
 

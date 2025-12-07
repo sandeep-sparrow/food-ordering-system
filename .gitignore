@@ -42,6 +42,7 @@ build/
 *.log
 *.metadata
 *.xml
+!pom.xml
 *.timeindex
 *.snapshot
 leader-epoch-checkpoint
